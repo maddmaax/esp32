@@ -1,12 +1,13 @@
-//Tech Trends Shameer
+//DHT PIN 1=D26 PIN
+//    PIN 2= 5V
+//    PIN 3= GND PIN (UPPER RIGHT)
 
-#define BLYNK_TEMPLATE_ID "TMPL6nvL9Tgt"
-#define BLYNK_TEMPLATE_NAME "Temp and Humid"
-#define BLYNK_AUTH_TOKEN "WtNYPWHQ7ymhp81a9h-UpW5ayswO4ccY"
+#define BLYNK_TEMPLATE_ID " "
+#define BLYNK_TEMPLATE_NAME " "
+#define BLYNK_AUTH_TOKEN " "
 
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
-//#include <ESP8266WiFi.h> 
 #include <BlynkSimpleEsp32.h>
 
 #include <DHT.h>
@@ -14,13 +15,13 @@
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "PLDTHOMEFIBRKpCy2";  // type your wifi name
-char pass[] = "PLDTWIFIRxMtU";  // type your wifi password
+char ssid[] = " ";  // type your wifi name
+char pass[] = " ";  // type your wifi password
 
 BlynkTimer timer;
 
 
-#define DHTPIN 26 //Connect Out pin to D2 in NODE MCU
+#define DHTPIN 26 
 #define DHTTYPE DHT11  
 DHT dht(DHTPIN, DHTTYPE);
 
