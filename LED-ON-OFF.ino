@@ -5,11 +5,11 @@
 #include <BlynkSimpleEsp32.h>
 
 // Enter your Auth token
-char auth[] = "WtNYPWHQ7ymhp81a9h-UpW5ayswO4ccY";
+char auth[] = " "; //auth token
 
 //Enter your WIFI SSID and password
-char ssid[] = "PLDTHOMEFIBRKpCy2";  
-char pass[] = "PLDTWIFIRxMtU"; 
+char ssid[] = " ";  //ssid
+char pass[] = " "; //password
 
 void setup(){
   // Debug console
